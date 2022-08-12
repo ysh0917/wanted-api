@@ -1,0 +1,9 @@
+unKnown:
+  status_code: "500"
+  msg: "An unknown error has occurred."
+companyDuplicate:
+  status_code: "400"
+  msg: "Duplicate company names exist."
+companyNotFound:
+  status_code: "404"
+  msg: "Company not found."
