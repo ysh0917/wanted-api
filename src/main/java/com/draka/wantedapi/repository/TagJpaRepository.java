@@ -1,6 +1,5 @@
 package com.draka.wantedapi.repository;
 
-import com.draka.wantedapi.entity.Language;
 import com.draka.wantedapi.entity.Tag;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

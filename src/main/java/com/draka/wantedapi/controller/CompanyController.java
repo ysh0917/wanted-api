@@ -9,7 +9,6 @@ import com.draka.wantedapi.service.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.*;
 
 @RequiredArgsConstructor
@@ -20,7 +19,6 @@ public class CompanyController {
     private final CompanyLanguageJpaRepository companyLanguageJpaRepository;
     private final CompanyCodeJpaRepository companyCodeJpaRepository;
     private final TagJpaRepository tagJpaRepository;
-    private final TagLanguageJpaRepository tagLanguageJpaRepository;
     private final CompanyTagJpaRepository companyTagJpaRepository;
 
     private final LanguageService languageService;
